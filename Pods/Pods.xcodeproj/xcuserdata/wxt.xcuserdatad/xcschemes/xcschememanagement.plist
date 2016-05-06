@@ -19,7 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>RESideMenu-Q.xcscheme</key>
+		<key>RESideMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,17 +27,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>70FC1F1DE92BAEE1A4CB45A227ACF884</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>916734A4C53E814C8E3A429DC681DCE9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>928353533005A4198EBDA5B700D37B64</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DDB13C3783414704516113BF6CF706FA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F87F821750157D3575AC89B054A28BE5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,0 +1,5 @@
+pod 'AFNetworking', '~> 3.1.0'
+pod 'BmobSDK', '~> 1.7.0'
+pod 'EaseMobSDKFull', '~> 2.1.7'
+pod 'MBProgressHUD', '~> 0.9.2'
+pod 'RESideMenu', '~> 4.0.7'

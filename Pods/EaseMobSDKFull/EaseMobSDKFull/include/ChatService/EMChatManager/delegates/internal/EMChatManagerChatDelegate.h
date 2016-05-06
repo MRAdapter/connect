@@ -7,7 +7,6 @@
 
 #import <Foundation/Foundation.h>
 #import "EMChatManagerDelegateBase.h"
-#import "commonDefs.h"
 
 @class EMMessage;
 @class EMConversation;
@@ -166,7 +165,6 @@
  */
 - (void)didReceiveOfflineCmdMessages:(NSArray *)offlineCmdMessages;
 
-
 /*!
  @method
  @brief 离线非透传消息接收完成的回调
@@ -174,7 +172,7 @@
  @param offlineMessages 接收到的离线列表
  @result
  */
-- (void)didFinishedReceiveOfflineMessages;
+- (void)didFinishedReceiveOfflineMessages:(NSArray *)offlineMessages;
 
 /*!
  @method
@@ -183,26 +181,6 @@
  @param offlineCmdMessages 接收到的离线透传消息列表
  @result
  */
-- (void)didFinishedReceiveOfflineCmdMessages;
-
-#pragma mark - EM_DEPRECATED_IOS
-
-/*!
- @method
- @brief 离线透传消息接收完成的回调
- @discussion
- @param offlineCmdMessages 接收到的离线透传消息列表
- @result
- */
-- (void)didFinishedReceiveOfflineCmdMessages:(NSArray *)offlineCmdMessages EM_DEPRECATED_IOS(2_1_5,2_1_8,"使用didFinishedReceiveOfflineCmdMessages标识离线消息结束，离线CMD全部通过didReceiveOfflineCmdMessages返回");
-
-/*!
- @method
- @brief 离线非透传消息接收完成的回调
- @discussion
- @param offlineMessages 接收到的离线列表
- @result
- */
-- (void)didFinishedReceiveOfflineMessages:(NSArray *)offlineMessages EM_DEPRECATED_IOS(2_1_5,2_1_8,"使用didFinishedReceiveOfflineMessages标识离线消息结束，离线消息全部通过didReceiveOfflineMessages返回");
+- (void)didFinishedReceiveOfflineCmdMessages:(NSArray *)offlineCmdMessages;
 
 @end

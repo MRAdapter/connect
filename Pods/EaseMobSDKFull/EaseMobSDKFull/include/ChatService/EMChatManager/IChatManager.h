@@ -16,7 +16,6 @@
 #import "IChatManagerSettingOptions.h"
 #import "IChatManagerPushNotification.h"
 #import "IChatManagerChatroom.h"
-#import "IChatManagerRobot.h"
 
 /*!
  @protocol
@@ -33,8 +32,7 @@
                         IChatManagerBuddy,
                         IChatManagerSettingOptions,
                         IChatManagerPushNotification,
-                        IChatManagerChatroom,
-                        IChatManagerRobot>
+                        IChatManagerChatroom>
 
 @required
 
