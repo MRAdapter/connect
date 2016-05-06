@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="86G-1O-EPt">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Center Controller-->
+        <scene sceneID="qFV-lG-1fm">
+            <objects>
+                <viewController storyboardIdentifier="GPCenterController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="86G-1O-EPt" customClass="GPCenterController" customModule="撩妹" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iSS-6Z-kiA"/>
+                        <viewControllerLayoutGuide type="bottom" id="ogW-aF-pWs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dmz-XC-C3a">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.64038006607845854" blue="0.38230156778230562" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="40J-hl-OJx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="394" y="327"/>
+        </scene>
+    </scenes>
+</document>

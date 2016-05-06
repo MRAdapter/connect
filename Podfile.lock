@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BmobSDK (1.6.9)
+  - EaseMobSDKFull (2.2.3)
+  - MBProgressHUD (0.9.2)
+  - NIMSDK (2.1.0)
+  - RESideMenu-Q (4.0.7.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - BmobSDK (~> 1.6.9)
+  - EaseMobSDKFull (from `https://github.com/easemob/sdk-ios-cocoapods-integration.git`)
+  - MBProgressHUD (~> 0.9.2)
+  - NIMSDK (~> 2.1.0)
+  - RESideMenu-Q (~> 4.0.7.1)
+
+EXTERNAL SOURCES:
+  EaseMobSDKFull:
+    :git: https://github.com/easemob/sdk-ios-cocoapods-integration.git
+
+CHECKOUT OPTIONS:
+  EaseMobSDKFull:
+    :commit: e7589cd9316e4298f89d3bbcb8aa3d2cefc8aaf0
+    :git: https://github.com/easemob/sdk-ios-cocoapods-integration.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BmobSDK: 448108f71e28947d0752cd81e242bb685a3ef6ca
+  EaseMobSDKFull: f0505c617b4422964cc66f7040419c78d39d6666
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  NIMSDK: 17f0a7ea90c6dc9890ef052f78763dc97f1411ec
+  RESideMenu-Q: e47037ad0cd74cf8429b394fef9dedd9834e3edd
+
+COCOAPODS: 0.39.0
